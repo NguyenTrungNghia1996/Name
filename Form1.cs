@@ -87,12 +87,15 @@ namespace Name
             {
                 cbSub1.Items.Add("Handheld");
                 cbSub1.Items.Add("Tripod");
+                cbSub1.Items.Add("");
 
                 cbSub2.Items.Add("Follow");
                 cbSub2.Items.Add("NoFollow");
+                cbSub2.Items.Add("");
 
                 cbSub3.Items.Add("InCar");
                 cbSub3.Items.Add("CarRig");
+                cbSub3.Items.Add("");
                 cbSub4.Enabled = false;
                 cbSub5.Enabled = false;
                 cbSub6.Enabled = false;
@@ -101,83 +104,104 @@ namespace Name
             {
                 cbSub1.Items.Add("LeftToRight");
                 cbSub1.Items.Add("RightToLeft");
+                cbSub1.Items.Add("");
 
                 cbSub2.Items.Add("Follow");
                 cbSub2.Items.Add("NoFollow");
+                cbSub2.Items.Add("");
 
                 cbSub3.Items.Add("Slow");
                 cbSub3.Items.Add("Normal");
                 cbSub3.Items.Add("Fast");
+                cbSub3.Items.Add("");
 
                 cbSub4.Items.Add("WithTruck");
                 cbSub4.Items.Add("WithDolly");
+                cbSub4.Items.Add("");
 
                 cbSub5.Items.Add("Handheld");
                 cbSub5.Items.Add("Tripod");
+                cbSub6.Items.Add("");
 
                 cbSub6.Items.Add("Parallax");
                 cbSub6.Items.Add("Diagonal");
+                cbSub6.Items.Add("");
             }
             if (cbMain.SelectedItem.ToString() == "Tilt")
             {
                 cbSub1.Items.Add("Up");
                 cbSub1.Items.Add("Down");
+                cbSub1.Items.Add("");
 
                 cbSub2.Items.Add("Follow");
                 cbSub2.Items.Add("NoFollow");
+                cbSub2.Items.Add("");
 
                 cbSub3.Items.Add("Slow");
                 cbSub3.Items.Add("Normal");
                 cbSub3.Items.Add("Fast");
+                cbSub3.Items.Add("");
 
                 cbSub4.Items.Add("WithDolly");
                 cbSub4.Items.Add("WithPedestal");
+                cbSub4.Items.Add("");
 
                 cbSub5.Items.Add("Handheld");
                 cbSub5.Items.Add("Tripod");
+                cbSub5.Items.Add("");
 
                 cbSub6.Items.Add("Diagonal");
+                cbSub6.Items.Add("");
             }
             if (cbMain.SelectedItem.ToString() == "Dolly")
             {
                 cbSub1.Items.Add("Forwards");
                 cbSub1.Items.Add("Backwards");
+                cbSub1.Items.Add("");
 
                 cbSub2.Items.Add("Follow");
                 cbSub2.Items.Add("NoFollow");
+                cbSub2.Items.Add("");
 
                 cbSub3.Items.Add("Slow");
                 cbSub3.Items.Add("Normal");
                 cbSub3.Items.Add("Fast");
+                cbSub3.Items.Add("");
 
                 cbSub4.Items.Add("WithPan");
                 cbSub4.Items.Add("WithTilt");
                 cbSub4.Items.Add("Car-rig");
                 cbSub4.Items.Add("In-car");
+                cbSub4.Items.Add("");
 
                 cbSub5.Items.Add("Gimbal");
                 cbSub5.Items.Add("Handheld");
-
+                cbSub5.Items.Add("");
                 cbSub6.Enabled = false;
             }
             if (cbMain.SelectedItem.ToString() == "Truck")
             {
                 cbSub1.Items.Add("LeftToRight");
                 cbSub1.Items.Add("RightToLeft");
+                cbSub1.Items.Add("");
 
                 cbSub2.Items.Add("Follow");
                 cbSub2.Items.Add("NoFollow");
+                cbSub2.Items.Add("");
 
                 cbSub3.Items.Add("Slow");
                 cbSub3.Items.Add("Normal");
                 cbSub3.Items.Add("Fast");
+                cbSub3.Items.Add("");
 
                 cbSub4.Items.Add("WithPan");
                 cbSub4.Items.Add("InCar");
                 cbSub4.Items.Add("CarRig");
+                cbSub4.Items.Add("");
 
                 cbSub5.Items.Add("Gimbal");
                 cbSub5.Items.Add("Handheld");
+                cbSub5.Items.Add("");
 
                 cbSub6.Items.Add("Parallax");
             }
@@ -185,15 +209,19 @@ namespace Name
             {
                 cbSub1.Items.Add("Up");
                 cbSub1.Items.Add("Down");
+                cbSub1.Items.Add("");
 
                 cbSub2.Items.Add("Follow");
                 cbSub2.Items.Add("NoFollow");
+                cbSub2.Items.Add("");
 
                 cbSub3.Items.Add("Slow");
                 cbSub3.Items.Add("Normal");
                 cbSub3.Items.Add("Fast");
+                cbSub3.Items.Add("");
 
                 cbSub4.Items.Add("WithTilt");
+                cbSub4.Items.Add("");
 
                 cbSub5.Enabled = false;
                 cbSub6.Enabled = false;
@@ -202,13 +230,16 @@ namespace Name
             {
                 cbSub1.Items.Add("In");
                 cbSub1.Items.Add("Out");
+                cbSub1.Items.Add("");
 
                 cbSub2.Items.Add("Follow");
                 cbSub2.Items.Add("NoFollow");
+                cbSub2.Items.Add("");
 
                 cbSub3.Items.Add("Slow");
                 cbSub3.Items.Add("Normal");
                 cbSub3.Items.Add("Fast");
+                cbSub3.Items.Add("");
 
 
                 cbSub4.Enabled = false;
@@ -219,13 +250,16 @@ namespace Name
             {
                 cbSub1.Items.Add("Clockwise");
                 cbSub1.Items.Add("Counter-Clockwise");
+                cbSub1.Items.Add("");
 
                 cbSub2.Items.Add("Follow");
                 cbSub2.Items.Add("NoFollow");
+                cbSub2.Items.Add("");
 
                 cbSub3.Items.Add("Slow");
                 cbSub3.Items.Add("Normal");
                 cbSub3.Items.Add("Fast");
+                cbSub3.Items.Add("");
                 cbSub4.Enabled = false;
                 cbSub5.Enabled = false;
                 cbSub6.Enabled = false;
@@ -235,8 +269,17 @@ namespace Name
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            string output;
+            if (txtDrive.Text != string.Empty)
+            {
+                output = txtDrive.Text + ":/My Drive/VideoByCategory/";
+            }
+            else
+            {
+                output = "C:/video/";
+            }
             String filePath = pathFile;
-            string output = "C:/video/";
+            
             string nameFileNew = cbMain.Text+"_" + cbSub1.Text + "_" + cbSub2.Text + "_" + cbSub3.Text + "_" + cbSub4.Text + "_" + cbSub5.Text + "_" + cbSub6.Text + "_"+nameFile+".mp4";
 
             bool exist = Directory.Exists(output + cbMain.SelectedItem.ToString());
@@ -256,7 +299,7 @@ namespace Name
                     cbSub4.Items.Clear();
                     cbSub5.Items.Clear();
                     cbSub6.Items.Clear();
-                    cbMain.Items.Clear();
+                    //cbMain.Items.Clear();
                 }
             }
         }

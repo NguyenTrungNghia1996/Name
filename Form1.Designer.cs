@@ -48,7 +48,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.cbMain = new System.Windows.Forms.ComboBox();
             this.btnSave = new System.Windows.Forms.Button();
-            this.label8 = new System.Windows.Forms.Label();
+            this.Drive = new System.Windows.Forms.Label();
+            this.txtDrive = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -231,21 +232,29 @@
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // label8
+            // Drive
             // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(876, 451);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
-            this.label8.TabIndex = 47;
-            this.label8.Text = "label8";
+            this.Drive.AutoSize = true;
+            this.Drive.Location = new System.Drawing.Point(876, 457);
+            this.Drive.Name = "Drive";
+            this.Drive.Size = new System.Drawing.Size(35, 13);
+            this.Drive.TabIndex = 47;
+            this.Drive.Text = "Drive:";
+            // 
+            // txtDrive
+            // 
+            this.txtDrive.Location = new System.Drawing.Point(914, 454);
+            this.txtDrive.Name = "txtDrive";
+            this.txtDrive.Size = new System.Drawing.Size(100, 20);
+            this.txtDrive.TabIndex = 48;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1096, 527);
-            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtDrive);
+            this.Controls.Add(this.Drive);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.cbSub6);
@@ -293,7 +302,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbMain;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label Drive;
+        private System.Windows.Forms.TextBox txtDrive;
     }
 }
 
