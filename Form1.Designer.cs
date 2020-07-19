@@ -55,7 +55,7 @@
             // 
             // btnOpen
             // 
-            this.btnOpen.Location = new System.Drawing.Point(12, 494);
+            this.btnOpen.Location = new System.Drawing.Point(12, 717);
             this.btnOpen.Name = "btnOpen";
             this.btnOpen.Size = new System.Drawing.Size(75, 23);
             this.btnOpen.TabIndex = 2;
@@ -69,15 +69,17 @@
             this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(176, 13);
             this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
             this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(693, 504);
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(1169, 908);
             this.axWindowsMediaPlayer1.TabIndex = 3;
             // 
             // listFile
             // 
+            this.listFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listFile.FormattingEnabled = true;
+            this.listFile.ItemHeight = 25;
             this.listFile.Location = new System.Drawing.Point(12, 13);
             this.listFile.Name = "listFile";
-            this.listFile.Size = new System.Drawing.Size(158, 472);
+            this.listFile.Size = new System.Drawing.Size(158, 679);
             this.listFile.TabIndex = 4;
             this.listFile.SelectedIndexChanged += new System.EventHandler(this.listFile_SelectedIndexChanged);
             // 
@@ -85,7 +87,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(875, 343);
+            this.label7.Location = new System.Drawing.Point(1351, 345);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(110, 20);
             this.label7.TabIndex = 45;
@@ -96,7 +98,7 @@
             this.cbSub6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSub6.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSub6.FormattingEnabled = true;
-            this.cbSub6.Location = new System.Drawing.Point(875, 366);
+            this.cbSub6.Location = new System.Drawing.Point(1351, 368);
             this.cbSub6.Name = "cbSub6";
             this.cbSub6.Size = new System.Drawing.Size(210, 29);
             this.cbSub6.TabIndex = 44;
@@ -105,7 +107,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(875, 288);
+            this.label6.Location = new System.Drawing.Point(1351, 290);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(110, 20);
             this.label6.TabIndex = 43;
@@ -116,7 +118,7 @@
             this.cbSub5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSub5.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSub5.FormattingEnabled = true;
-            this.cbSub5.Location = new System.Drawing.Point(875, 311);
+            this.cbSub5.Location = new System.Drawing.Point(1351, 313);
             this.cbSub5.Name = "cbSub5";
             this.cbSub5.Size = new System.Drawing.Size(210, 29);
             this.cbSub5.TabIndex = 42;
@@ -125,7 +127,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(875, 233);
+            this.label5.Location = new System.Drawing.Point(1351, 235);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(110, 20);
             this.label5.TabIndex = 41;
@@ -136,7 +138,7 @@
             this.cbSub4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSub4.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSub4.FormattingEnabled = true;
-            this.cbSub4.Location = new System.Drawing.Point(875, 256);
+            this.cbSub4.Location = new System.Drawing.Point(1351, 258);
             this.cbSub4.Name = "cbSub4";
             this.cbSub4.Size = new System.Drawing.Size(210, 29);
             this.cbSub4.TabIndex = 40;
@@ -145,7 +147,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(875, 178);
+            this.label4.Location = new System.Drawing.Point(1351, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(110, 20);
             this.label4.TabIndex = 39;
@@ -156,7 +158,7 @@
             this.cbSub3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSub3.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSub3.FormattingEnabled = true;
-            this.cbSub3.Location = new System.Drawing.Point(875, 201);
+            this.cbSub3.Location = new System.Drawing.Point(1351, 203);
             this.cbSub3.Name = "cbSub3";
             this.cbSub3.Size = new System.Drawing.Size(210, 29);
             this.cbSub3.TabIndex = 38;
@@ -165,7 +167,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(875, 123);
+            this.label3.Location = new System.Drawing.Point(1351, 125);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(110, 20);
             this.label3.TabIndex = 37;
@@ -176,7 +178,7 @@
             this.cbSub2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSub2.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSub2.FormattingEnabled = true;
-            this.cbSub2.Location = new System.Drawing.Point(875, 146);
+            this.cbSub2.Location = new System.Drawing.Point(1351, 148);
             this.cbSub2.Name = "cbSub2";
             this.cbSub2.Size = new System.Drawing.Size(210, 29);
             this.cbSub2.TabIndex = 36;
@@ -185,7 +187,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(875, 68);
+            this.label2.Location = new System.Drawing.Point(1351, 70);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(110, 20);
             this.label2.TabIndex = 35;
@@ -196,7 +198,7 @@
             this.cbSub1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSub1.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbSub1.FormattingEnabled = true;
-            this.cbSub1.Location = new System.Drawing.Point(875, 91);
+            this.cbSub1.Location = new System.Drawing.Point(1351, 93);
             this.cbSub1.Name = "cbSub1";
             this.cbSub1.Size = new System.Drawing.Size(210, 29);
             this.cbSub1.TabIndex = 34;
@@ -205,7 +207,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Emoji", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(875, 13);
+            this.label1.Location = new System.Drawing.Point(1351, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 20);
             this.label1.TabIndex = 33;
@@ -216,7 +218,7 @@
             this.cbMain.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbMain.Font = new System.Drawing.Font("Segoe UI Emoji", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMain.FormattingEnabled = true;
-            this.cbMain.Location = new System.Drawing.Point(875, 36);
+            this.cbMain.Location = new System.Drawing.Point(1351, 38);
             this.cbMain.Name = "cbMain";
             this.cbMain.Size = new System.Drawing.Size(210, 29);
             this.cbMain.TabIndex = 32;
@@ -224,7 +226,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(1009, 401);
+            this.btnSave.Location = new System.Drawing.Point(1483, 403);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(75, 23);
             this.btnSave.TabIndex = 46;
@@ -235,7 +237,7 @@
             // Drive
             // 
             this.Drive.AutoSize = true;
-            this.Drive.Location = new System.Drawing.Point(876, 457);
+            this.Drive.Location = new System.Drawing.Point(1352, 459);
             this.Drive.Name = "Drive";
             this.Drive.Size = new System.Drawing.Size(35, 13);
             this.Drive.TabIndex = 47;
@@ -243,7 +245,7 @@
             // 
             // txtDrive
             // 
-            this.txtDrive.Location = new System.Drawing.Point(914, 454);
+            this.txtDrive.Location = new System.Drawing.Point(1390, 456);
             this.txtDrive.Name = "txtDrive";
             this.txtDrive.Size = new System.Drawing.Size(100, 20);
             this.txtDrive.TabIndex = 48;
@@ -252,7 +254,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1096, 527);
+            this.ClientSize = new System.Drawing.Size(1573, 933);
             this.Controls.Add(this.txtDrive);
             this.Controls.Add(this.Drive);
             this.Controls.Add(this.btnSave);

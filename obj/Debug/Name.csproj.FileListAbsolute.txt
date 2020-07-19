@@ -3,7 +3,6 @@ D:\GIT\Name\Name\bin\Debug\Name.exe
 D:\GIT\Name\Name\bin\Debug\Name.pdb
 D:\GIT\Name\Name\bin\Debug\Interop.WMPLib.dll
 D:\GIT\Name\Name\bin\Debug\AxInterop.WMPLib.dll
-D:\GIT\Name\Name\obj\Debug\Name.csprojAssemblyReference.cache
 D:\GIT\Name\Name\obj\Debug\Interop.WMPLib.dll
 D:\GIT\Name\Name\obj\Debug\AxInterop.WMPLib.dll
 D:\GIT\Name\Name\obj\Debug\Name.csproj.ResolveComReference.cache
@@ -13,3 +12,4 @@ D:\GIT\Name\Name\obj\Debug\Name.csproj.GenerateResource.cache
 D:\GIT\Name\Name\obj\Debug\Name.csproj.CoreCompileInputs.cache
 D:\GIT\Name\Name\obj\Debug\Name.exe
 D:\GIT\Name\Name\obj\Debug\Name.pdb
+D:\GIT\Name\Name\obj\Debug\Name.csprojAssemblyReference.cache

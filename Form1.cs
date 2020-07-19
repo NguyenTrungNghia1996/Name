@@ -61,6 +61,7 @@ namespace Name
             cbMain.Items.Add("Pedestal");
             cbMain.Items.Add("Zoom");
             cbMain.Items.Add("Roll");
+            cbMain.Items.Add("No Category Yet");
             cbSub1.Enabled = false;
             cbSub2.Enabled = false;
             cbSub3.Enabled = false;
